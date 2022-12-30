@@ -2,7 +2,9 @@ name: Deploy React App
 on:
     push:
         branches:
-            - master
+            - main
+        paths-ignore:
+            - ".github/workflows/*"
 jobs:
     delpoy:
         runs-on: ubuntu-latest
