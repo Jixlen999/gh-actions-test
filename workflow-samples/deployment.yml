@@ -1,6 +1,8 @@
 name: Deploy React App
 on: push
 jobs:
+    # Можно разбивать на несколько Jobs
+    # У всех должна быть часть от задания имени до npm ci
     delpoy:
         runs-on: ubuntu-latest
         steps:
