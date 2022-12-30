@@ -6,7 +6,7 @@ on:
         # paths-ignore:
         #     - ".github/workflows/*"
 jobs:
-    delpoy:
+    deploy:
         runs-on: ubuntu-latest
         steps:
           - name: Get repository code
